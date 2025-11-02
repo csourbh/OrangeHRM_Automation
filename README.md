@@ -74,3 +74,8 @@ orange-hrm-automation/
 ├── extent-reports/ (auto-generated)
 ├── test-output/ (auto-generated)
 └── pom.xml
+
+**### 👨‍💼extent-reports ScreenshotUtil**
+<img width="959" height="477" alt="Image" src="https://github.com/user-attachments/assets/b41fecfb-28e1-4328-8f9c-b0f417826445" />
+
+<img width="943" height="476" alt="Image" src="https://github.com/user-attachments/assets/d7bb441b-23ea-424e-954e-81e7278f9337" />
