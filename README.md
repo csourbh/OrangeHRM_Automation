@@ -1,3 +1,4 @@
+<img width="959" height="477" alt="Image" src="https://github.com/user-attachments/assets/b41fecfb-28e1-4328-8f9c-b0f417826445" />
 # 🧪 Orange HRM Automation Framework
 
 ## 📋 Project Overview
