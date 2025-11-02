@@ -23,6 +23,6 @@ public class TestListener implements ITestListener {
         System.out.println("Test Failed: " + result.getName());
         // Capture screenshot on test failure
         Object currentClass = result.getInstance();
-        // You can add more logic here if needed
+       
     }
 }

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="OrangeHRM Automation Suite" parallel="false">
+
+    <!-- Define browser parameter globally -->
+    <parameter name="browser" value="chrome"/>
+
+    <!-- ===== LOGIN MODULE TESTS ===== -->
+    <test name="Login Module Tests" preserve-order="true">
+        <classes>
+            <class name="com.orangehrm.tests.LoginTest">
+                <methods>
+                    <include name="testLoginWithMultipleData"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- ===== ADMIN MODULE TESTS ===== -->
+    <test name="Admin Module Tests" preserve-order="true">
+        <classes>
+            <class name="com.orangehrm.tests.admin.AdminTest">
+                <methods>
+                    <include name="testLeftMenuOptionsAndNavigateToAdmin"/>
+                    <include name="testSearchByUsername"/>
+                    <include name="testSearchByUserRole"/>
+                    <include name="testSearchByUserStatus"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- ===== LISTENERS ===== -->
+    <listeners>
+        <listener class-name="com.orangehrm.listeners.TestListener"/>
+    </listeners>
+
+</suite>
